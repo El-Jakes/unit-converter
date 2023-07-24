@@ -19,6 +19,7 @@ body {
 }
 
 .header {
+    margin-bottom: 2.25em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,4 +71,28 @@ body {
   text-transform: capitalize;
   background: #fff;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.result-container {
+  width: 90%;
+  margin: 0 auto 1.5em;
+  padding: 1.938em 4.813em 1.161em;
+  height: 108.573px;
+  border-radius: 5px 0px 0px 0px;
+  background: #273549;
+}
+
+.result-title {
+    margin: 0;
+  color: #ccc1ff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.result-text {
+  color: #fff;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 20px;
 }
