@@ -6,7 +6,6 @@
 
 body {
   margin: 0;
-  /* padding: 0; */
   font-family: "Poppins", sans-serif;
   color: #fff;
   text-align: center;
@@ -15,14 +14,13 @@ body {
 .container {
   width: 550px;
   height: 729px;
-  background:#1F2937;
+  background: #1f2937;
   margin: 1em auto;
 }
 
 .header {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   max-width: 550px;
   width: 100%;
@@ -45,12 +43,12 @@ body {
   align-items: center;
 }
 
-.header-input,
-.header-btn {
+.input-el,
+.convert-btn {
   width: 117px;
 }
 
-.header-input {
+.input-el {
   height: 83px;
   border-radius: 5px;
   outline: none;
@@ -63,9 +61,9 @@ body {
   border: 2px solid #b295ff;
 }
 
-.header-btn {
-    margin-top: 1.563em;
-  padding: .563em 1.719em;
+.convert-btn {
+  margin-top: 1.563em;
+  padding: 0.563em 1.719em;
   border-radius: 5px;
   outline: none;
   border: 1px solid #b295ff;
