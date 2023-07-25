@@ -49,6 +49,10 @@ body {
   width: 117px;
 }
 
+.input-el::placeholder {
+  color: #fff;
+}
+
 .input-el {
   height: 83px;
   border-radius: 5px;
