@@ -19,7 +19,7 @@ body {
 }
 
 .header {
-    margin-bottom: 2.25em;
+  margin-bottom: 2.25em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -71,6 +71,7 @@ body {
   text-transform: capitalize;
   background: #fff;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
 }
 
 .result-container {
@@ -83,7 +84,7 @@ body {
 }
 
 .result-title {
-    margin: 0;
+  margin: 0;
   color: #ccc1ff;
   font-size: 1.25rem;
   font-weight: 600;
@@ -92,7 +93,7 @@ body {
 
 .result-text {
   color: #fff;
-  font-size: .875rem;
+  font-size: 0.875rem;
   font-weight: 400;
   line-height: 20px;
 }
